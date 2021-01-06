@@ -15,8 +15,8 @@ print(bar(arr))
 
 
 ### output .............
-i can do like  also  that e can start the first loop form 7 and end with 1
-so there is no need to be a (height-i) is only for reduce value and check until the same value encouter anf print the star. else print the space ..........
+# i can do like  also  that we can start the first loop form 7 and end with 1
+# so there is no need to be a (height-i) is here only to reduce value and check until the same value encouter anf print the star. else print the space ..........
 
 5
 3 1 0 7 5
