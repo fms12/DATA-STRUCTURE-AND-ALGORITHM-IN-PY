@@ -1,12 +1,12 @@
-question:
+# question:
 
-1. You are given a number n, representing the size of array a.
-2. You are given n numbers, representing elements of array a.
-3. You are given a number k.
-4. Rotate the array a, k times to the right (for positive values of k), and to
-the left for negative values of k.
+# 1. You are given a number n, representing the size of array a.
+# 2. You are given n numbers, representing elements of array a.
+# 3. You are given a number k.
+# 4. Rotate the array a, k times to the right (for positive values of k), and to
+# the left for negative values of k.
 
-solution
+# solution
 
 def revrse(arr,k):
 # if the k is more than the lenght than modulw thwe array
@@ -34,6 +34,6 @@ k=int(input())
 revrse(arr,k)
 
 
-//////////////////..............output.............////////////
+# //////////////////..............{output}.............////////////
 
-3, 4, 5, 1, 2
+# 3, 4, 5, 1, 2
