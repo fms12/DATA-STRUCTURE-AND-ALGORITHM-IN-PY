@@ -1,0 +1,39 @@
+These diagrams show the adjustment of the boundaries after we iterate through a row or a column.
+
+
+
+
+
+
+
+
+
+image
+
+collect first row
+
+image
+
+adjust first_row boundary, go down and collect last_col
+
+image
+
+adjust last_col boundary, go right and collect last_row
+
+image
+
+adjust last_row boundary, go up and collect first_col
+
+image
+
+adjust first_col boundary, go and collect first_row
+
+image
+
+adjust first_row and go collect last_col
+
+image
+
+adjust last_col and go collect last_row
+
+image
