@@ -1,6 +1,7 @@
 # Data-Structures-and-Algorithms-in-PYTHON
 This is very good piece of coding.
 This repository is in development phase and will soon provide you with python code of various data structures and algorithms
+and we all know that there not much resources to learn data structures and algorithms in python.
 
 ## Who can contribute
 
