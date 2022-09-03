@@ -7,25 +7,41 @@ and we all know that there not much resources to learn data structures and algor
 
 Anyone can contribute to this repositry.
 
-# Contribution Guide
+# Contribution is fun! :green_heart:
 
-## How to contribute
-<ul>
-<li>Fork this repository</li>
-<li>Pick up an algortihm</li>
-<li>Write your code</li>
-<li>Create a pull request</li>
-<li>Star the repository to show your support</li>
-<li> Share as many as you can </li>
-</ul>
+In order to make a hassle-free environment, I implore you all (_while contributing_) to follow the instructions mentioned below!
 
-## Instructions
+Happy Submissions :slightly_smiling_face:
 
-* Create a folder for the topic you wish to contribute in and add the respective files in that particular folder.
-If a folder for a particular Data Structure or Algorithm exists. Add your codes in that folder itself.
-If a folder already exists, add your codes to it.
+## :arrow_down: Installation
 
-### Additional Notes
-* Code should be properly commented so as to ensure it's readability.
-* If you've added code that should be tested, add tests as comments. 
-* Make sure your code is properly formatted.
+- First, fork this repository :fork_and_knife: and follow the given instructions:
+
+```bash
+# clone the repository to your local machine
+$ git clone https://github.com/<YOUR-GITHUB-USERNAME>/DATA-STRUCTURE-AND-ALGORITHM-IN-.PY.git
+
+# navigate to the project's directory and install all the relevant dev-dependencies
+$ cd DATA-STRUCTURE-AND-ALGORITHM-IN-.PY
+
+- Add your submissions for the milestone you are working on in the respective milestone folder
+- Once you have made your changes, run the following command:
+
+```bash
+# add your changes
+$ git add .
+
+# make your commit
+$ git commit -m "<YOUR-COMMIT-MESSAGE>"
+
+# push your changes
+$ git push -u origin master  #for first time push
+$ git push                   #from second push onwards
+```
+
+> Think you're ready :grey_question: Make the PR :tropical_drink:
+-  open your forked repository
+- Click on Create New Pull Request
+- Give a message in the comment box about the PR
+- Hurrah!! Your first PR made! Wait for your submission to be accepted and your PR to be merged
+
