@@ -1,5 +1,3 @@
-import random
-from time import time
 
 def bubbleSort(L):
     if len(L) < 2:
