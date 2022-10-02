@@ -1,11 +1,11 @@
 # Data-Structures-and-Algorithms-in-PYTHON
 This is very good piece of coding.
-This repository is in development phase and will soon provide you with python code of various data structures and algorithms
-and we all know that there not much resources to learn data structures and algorithms in python.
+This repository is in it's development phase and will soon provide you with python code of various data structures and algorithms
+as we all know that there are not much resources to learn data structures and algorithms in python.
 
-## Who can contribute
+## Who can contribute?
 
-Anyone can contribute to this repositry.
+Anyone can contribute to this repositry!
 
 # Contribution is fun! :green_heart:
 
@@ -19,10 +19,10 @@ Happy Submissions :slightly_smiling_face:
 
 ```bash
 # clone the repository to your local machine
-$ git clone https://github.com/<YOUR-GITHUB-USERNAME>/DATA-STRUCTURE-AND-ALGORITHM-IN-.PY.git
+$ git clone https://github.com/<YOUR-GITHUB-USERNAME>/DATA-STRUCTURE-AND-ALGORITHM-IN-PY.git
 
 # navigate to the project's directory and install all the relevant dev-dependencies
-$ cd DATA-STRUCTURE-AND-ALGORITHM-IN-.PY
+$ cd DATA-STRUCTURE-AND-ALGORITHM-IN-PY
 
 - Add your submissions for the milestone you are working on in the respective milestone folder
 - Once you have made your changes, run the following command:
