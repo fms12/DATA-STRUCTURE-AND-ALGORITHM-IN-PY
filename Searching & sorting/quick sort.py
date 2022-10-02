@@ -51,5 +51,3 @@ array = [10, 7, 8, 9, 1, 5]
 quick_sort(array, 0, len(array) - 1)
 
 print(f'Sorted array: {array}')
-
-# This code is contributed by Adnan Aliakbar
