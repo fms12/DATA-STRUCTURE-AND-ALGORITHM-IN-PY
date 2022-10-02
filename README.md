@@ -1,4 +1,5 @@
-# Data-Structures-and-Algorithms-in-PYTHON
+<h1 align="center">Data-Structures-and-Algorithms-in-PYTHON</h1>
+<h2 align ="center">An open source codebase for sharing programming solutions. </h2>
 This is very good piece of coding.
 This repository is in development phase and will soon provide you with python code of various data structures and algorithms
 and we all know that there not much resources to learn data structures and algorithms in python.
