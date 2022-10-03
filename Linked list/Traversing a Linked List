@@ -1,28 +1,51 @@
-** TRANSVERSING A LINKED LIST **
+** TRANSVERSAL OF A LINKED LIST **
 
+
+
+# node structure
 class Node:
-   def __init__(self, dataval=None):
-      self.dataval = dataval
-      self.nextval = None
+  #constructor to create a new node
+  def __init__(self, data):
+    self.data = data
+    self.next = None
 
-class SLinkedList:
-   def __init__(self):
-      self.headval = None
+#class Linked List
+class LinkedList:
+  #constructor to create an empty LinkedList
+  def __init__(self):
+    self.head = None
 
-   def listprint(self):
-      printval = self.headval
-      while printval is not None:
-         print (printval.dataval)
-         printval = printval.nextval
-list = SLinkedList()
-list.headval = Node("1")
-e2 = Node("2")
-e3 = Node("3")
+  #display the content of the list
+  def PrintList(self):
+    temp = self.head
+    if(temp != None):
+      print("The list contains:", end=" ")
+      while (temp != None):
+        print(temp.data, end=" ")
+        temp = temp.next
+      print()
+    else:
+      print("The list is empty.")
 
-# Link first Node to second node
-list.headval.nextval = e2
+# test the code    
+# create an empty LinkedList                 
+MyList = LinkedList()
 
-# Link second Node to third node
-e2.nextval = e3
+#Add first node.
+first = Node(10)
+#linking with head node
+MyList.head = first
 
-list.listprint()
+#Add second node.
+second = Node(20)
+#linking with first node
+first.next = second
+
+#Add third node.
+third = Node(30)
+#linking with second node
+second.next = third
+
+#print the content of list 
+MyList.PrintList()
+
