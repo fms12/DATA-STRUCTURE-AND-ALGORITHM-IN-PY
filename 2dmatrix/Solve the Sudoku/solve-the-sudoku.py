@@ -4,11 +4,11 @@ class Solution:
     def __init__(self):
         self.ans=[]
     #Function to find a solved Sudoku.
-    global grid
+    grid=[]
     def SolveSudoku(self,grid):
         def valid(grid,p,x,y):
             for i in range(9):
-                if(grid[x][i]==p or grid[i][y]==p):
+                if(p in (grid[x][i], grid[i][y])):
                     return 0
             s=3*(x//3)
             e=3*(y//3)
@@ -41,7 +41,7 @@ class Solution:
     def call(self):
         return self.ans
     #Function to print grids of the Sudoku.  
-    def printGrid(self,arr):
+    def printGrid(self):
         grid=self.call()
         for i in grid:
             print(*i,end=" ")
@@ -63,7 +63,7 @@ if __name__=="__main__":
                 
         ob = Solution()
             
-        if(ob.SolveSudoku(grid)==True):
+        if(ob.SolveSudoku(grid) is True):
             ob.printGrid(grid)
             print()
         else:
