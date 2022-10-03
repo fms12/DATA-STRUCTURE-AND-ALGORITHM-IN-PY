@@ -46,3 +46,14 @@ $ git push                   #from second push onwards
 - Give a message in the comment box about the PR
 - Hurrah!! Your first PR made! Wait for your submission to be accepted and your PR to be merged
 
+
+## 💪 Thanks to all Contributors
+
+Thanks a lot for spending your time helping Good first issue finder grow. Thanks a lot! Keep rocking 🍻
+
+[![Contributors](https://contrib.rocks/image?repo= fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY)](https://github.com/fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY/graphs/contributors)
+
+## 🙏 Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
+
