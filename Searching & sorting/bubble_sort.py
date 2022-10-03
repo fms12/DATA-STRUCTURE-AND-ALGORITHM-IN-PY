@@ -1,11 +1,11 @@
 # Bubble sort
 # define a fuction
-def bubble_sort(list):      
-    for i in range(len(list)):      
-        for j in range(len(list)-1):            #  Bubble sort logic
-            if list[j] > list[j+1]:
-                list[j], list[j+1] = list[j+1], list[j]
-    return list
+def bubble_sort(listt):      
+    for _ in range(len(listt)):      
+        for j in range(len(listt)-1):            #  Bubble sort logic
+            if listt[j] > listt[j+1]:
+                listt[j], listt[j+1] = listt[j+1], listt[j]
+    return listt
 
 if __name__ == '__main__':
     arr =[]
@@ -16,5 +16,5 @@ if __name__ == '__main__':
     print("Unsorted list: ", arr)       #  Printing unsorted list
 
     print("Array before sorting: ", arr)
-    print(bubble_sort(list))        #  Printing sorted list
+    print(bubble_sort(arr))        #  Printing sorted list
 
