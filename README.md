@@ -51,7 +51,7 @@ $ git push                   #from second push onwards
 
 Thanks a lot for spending your time helping Good first issue finder grow. Thanks a lot! Keep rocking 🍻
 
-[![Contributors](https://contrib.rocks/image?repo= fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY)](https://github.com/fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY/graphs/contributors)
+[![Contributors](https://contrib.rocks/image?repo=fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY)](https://github.com/fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY/graphs/contributors)
 
 ## 🙏 Support
 
