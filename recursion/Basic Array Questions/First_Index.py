@@ -11,7 +11,7 @@ def firstindex(a, x, si):
     return firstindex(a,x,si+1) # Function calling itself with the increment of si
 
 a = [1,4,3,7,5,4,6] # Taking an Example
-x = 4 # Find the first index of 4
+x = 4 # Find the first index of occurrence of 4
 print(firstindex(a, x,0))
 
 # Ouput: 
