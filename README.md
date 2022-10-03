@@ -1,8 +1,8 @@
 <h1 align="center">Data-Structures-and-Algorithms-in-PYTHON</h1>
 <h2 align ="center">An open source codebase for sharing programming solutions. </h2>
-This is very good piece of coding.
+This is very good piece of coding. Repo
 This repository is in it's development phase and will soon provide you with python code of various data structures and algorithms
-as we all know that there are not much resources to learn data structures and algorithms in python.
+as we all know that there are not much resources to learn data structures and algorithms in python. so please contribute as much as you can
 
 ## Who can contribute?
 
@@ -45,4 +45,15 @@ $ git push                   #from second push onwards
 - Click on Create New Pull Request
 - Give a message in the comment box about the PR
 - Hurrah!! Your first PR made! Wait for your submission to be accepted and your PR to be merged
+
+
+## 💪 Thanks to all Contributors
+
+Thanks a lot for spending your time helping Good first issue finder grow. Thanks a lot! Keep rocking 🍻
+
+[![Contributors](https://contrib.rocks/image?repo=fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY)](https://github.com/fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY/graphs/contributors)
+
+## 🙏 Support
+
+This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
 
