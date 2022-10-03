@@ -1,41 +1,31 @@
-# Python program for counting sort
- 
-# The main function that sort the given string arr[] in
-# alphabetical order
-def countSort(arr):
- 
-    # The output character array that will have sorted arr
-    output = [0 for i in range(256)]
- 
-    # Create a count array to store count of individual
-    # characters and initialize count array as 0
-    count = [0 for i in range(256)]
- 
-    # For storing the resulting answer since the
-    # string is immutable
-    ans = ["" for _ in arr]
- 
-    # Store count of each character
-    for i in arr:
-        count[ord(i)] += 1
- 
-    # Change count[i] so that count[i] now contains actual
-    # position of this character in output array
-    for i in range(256):
-        count[i] += count[i-1]
- 
-    # Build the output character array
-    for i in range(len(arr)):
-        output[count[ord(arr[i])]-1] = arr[i]
-        count[ord(arr[i])] -= 1
- 
-    # Copy the output array to arr, so that arr now
-    # contains sorted characters
-    for i in range(len(arr)):
-        ans[i] = output[i]
-    return ans
- 
-# Driver program to test above function
-arr = "geeksforgeeks"
-ans = countSort(arr)
-print ("Sorted character array is %s"  %("".join(ans)))
+# python program for counting sort
+
+def countingSort(arr):
+    size = len(arr)
+    output = [0] * size
+
+    # count array initialization
+    count = [0] * 10
+
+    # storing the count of each element 
+    for m in range(0, size):
+        count[arr[m]] += 1
+
+    # storing the cumulative count
+    for m in range(1, 10):
+        count[m] += count[m - 1]
+
+    # place the elements in output array after finding the index of each element of original array in count array
+    m = size - 1
+    while m >= 0:
+        output[count[arr[m]] - 1] = arr[m]
+        count[arr[m]] -= 1
+        m -= 1
+
+    for m in range(0, size):
+        arr[m] = output[m]
+
+data = [3,5,1,6,7,8,3]
+countingSort(data)
+print("Sorted Array: ")
+print(data)
