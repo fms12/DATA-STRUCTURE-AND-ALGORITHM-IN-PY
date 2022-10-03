@@ -10,7 +10,7 @@ for j in range(len(arr)):
 return -1
 # 2 approch
 for i in range(len(arr)):
-    if(count[arr[i]]==False):
+    if(count[arr[i]] is False):
         count[arr[i]] = True
     else:
         return arr[i]
