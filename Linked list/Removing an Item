@@ -16,7 +16,7 @@ class SLinkedList:
 # Function to remove node
    def RemoveNode(self, Removekey):
       HeadVal = self.head
-         
+# Checking for remove a node
       if (HeadVal is not None):
          if (HeadVal.data == Removekey):
             self.head = HeadVal.next
