@@ -22,12 +22,12 @@ class SLinkedList:
    self.headval = NewNode
 
 list = SLinkedList()
-list.headval = Node("Mon")
-e2 = Node("Tue")
-e3 = Node("Wed")
+list.headval = Node("10")
+e2 = Node("20")
+e3 = Node("30")
 
 list.headval.nextval = e2
 e2.nextval = e3
 
-list.AtBegining("Sun")
+list.AtBegining("40")
 list.listprint()
