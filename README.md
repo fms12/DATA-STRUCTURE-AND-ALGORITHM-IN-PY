@@ -49,7 +49,7 @@ $ git push                   #from second push onwards
 
 ## 💪 Thanks to all Contributors
 
-Thanks a lot for spending your time helping Good first issue finder grow. Thanks a lot! Keep rocking 🍻
+Thanks a lot for spending your time helping add more alogrithms in DATA-STRUCTURE-AND-ALGORITHM-IN-PY . Thanks a lot! Keep rocking 🍻
 
 [![Contributors](https://contrib.rocks/image?repo=fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY)](https://github.com/fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY/graphs/contributors)
 
