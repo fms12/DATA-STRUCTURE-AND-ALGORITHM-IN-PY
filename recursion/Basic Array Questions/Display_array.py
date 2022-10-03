@@ -26,4 +26,4 @@ display_arr(arr,0,n) # Printing the elements of an array through recursion
 # 5
 
 # Ouput:
-1 2 3 4 5
+# 1 2 3 4 5
