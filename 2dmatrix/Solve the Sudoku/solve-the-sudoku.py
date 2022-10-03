@@ -64,7 +64,7 @@ if __name__=="__main__":
         ob = Solution()
             
         if(ob.SolveSudoku(grid) is True):
-            ob.printGrid(grid)
+            ob.printGrid()
             print()
         else:
             print("No solution exists")
