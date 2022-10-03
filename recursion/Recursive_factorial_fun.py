@@ -1,8 +1,7 @@
 def factorial(n): 
       
     #checking for 1 and 0 factorial value
-    if (n==1 or n==0):
-          
+    if n in (1,0):
         return 1
       
     else:
