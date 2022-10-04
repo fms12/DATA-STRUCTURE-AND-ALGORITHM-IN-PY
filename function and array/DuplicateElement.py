@@ -1,7 +1,7 @@
 #  find Duplicate in the array
 def solution(arr):
     count=[]
-    for i,element in enumerate(arr):
+    for i,_ in enumerate(arr):
         if arr[i] in count:
             return arr[i]
         else:
