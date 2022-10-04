@@ -1,0 +1,27 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "VARUNvk1729",
+      "name": "Varun",
+      "avatar_url": "https://avatars.githubusercontent.com/u/76661061?v=4",
+      "profile": "https://www.linkedin.com/in/varun-kakateeya-1838ba203/",
+      "contributions": [
+        "infra",
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "DATA-STRUCTURE-AND-ALGORITHM-IN-PY",
+  "projectOwner": "fms12"
+}
