@@ -1,7 +1,4 @@
 <h1 align="center">Data-Structures-and-Algorithms-in-PYTHON</h1>
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 <h2 align ="center">An open source codebase for sharing programming solutions. </h2>
 This is very good piece of coding. Repo
 This repository is in it's development phase and will soon provide you with python code of various data structures and algorithms
@@ -59,29 +56,3 @@ Thanks a lot for spending your time helping add more alogrithms in DATA-STRUCTUR
 ## 🙏 Support
 
 This project needs a ⭐️ from you. Don't forget to leave a star ⭐️.
-
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="https://www.linkedin.com/in/varun-kakateeya-1838ba203/"><img src="https://avatars.githubusercontent.com/u/76661061?v=4?s=100" width="100px;" alt="Varun"/><br /><sub><b>Varun</b></sub></a><br /><a href="#infra-VARUNvk1729" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY/commits?author=VARUNvk1729" title="Tests">⚠️</a> <a href="https://github.com/fms12/DATA-STRUCTURE-AND-ALGORITHM-IN-PY/commits?author=VARUNvk1729" title="Code">💻</a></td>
-    </tr>
-  </tbody>
-  <tfoot>
-    
-  </tfoot>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
