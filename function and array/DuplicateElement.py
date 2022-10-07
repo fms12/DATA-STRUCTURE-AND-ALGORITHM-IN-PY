@@ -1,17 +1,10 @@
 #  find Duplicate in the array
-# left most repeating element 
-#  its can also work for the strings
-
-for i in range(len(arr)):
-    count[arr[i]]+=1
-for j in range(len(arr)):
-    if(count[arr[j]]>1):
-        return arr[j]
-return -1
-# 2 approch
-for i in range(len(arr)):
-    if(count[arr[i]] is False):
-        count[arr[i]] = True
-    else:
-        return arr[i]
-return -1
+def solution(arr):
+    count=[]
+    for i,_ in enumerate(arr):
+        if arr[i] in count:
+            return arr[i]
+        else:
+            count.append(arr[i])
+    return -1
+print(solution([1,2,3,4,5]))
