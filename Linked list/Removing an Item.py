@@ -1,4 +1,4 @@
-** REMOVING AN ITEM **
+# REMOVING AN ITEM
 
 class Node:
    def __init__(self, data=None):
