@@ -8,18 +8,18 @@ class linkedlist:
 		self.head = None
 		
 	def reverse(self, head, k):
-		if head == None:
+		if head is None:
 		    return None
 		current = head
-		next = None
+		nextp = None
 		prev = None
 		count = 0
 
 		while(current is not None and count < k):
-			next = current.next
+			nextp = current.next
 			current.next = prev
 			prev = current
-			current = next
+			current = nextp
 			count += 1
 		if next is not None:
 			head.next = self.reverse(next, k)
