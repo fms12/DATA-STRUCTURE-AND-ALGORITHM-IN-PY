@@ -1,4 +1,4 @@
-def nextPermutation(self, nums):
+def nextPermutation(nums):
     i = j = len(nums)-1
     while i > 0 and nums[i-1] >= nums[i]:
         i -= 1
