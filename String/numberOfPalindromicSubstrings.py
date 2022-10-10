@@ -22,7 +22,7 @@ def CountPS(s, n):
   
     # palindrome of single length
     for i in range(n):
-        P[i][i] = True
+        P[i][i]=True;
   
     # palindrome of length 2
     for i in range(n - 1):
@@ -52,7 +52,7 @@ def CountPS(s, n):
             # and rest palindrome substring (dp[i][j-1] +
             # dp[i+1][j]) remove common palindrome
             # substrings (- dp[i+1][j-1])
-            if (P[i][j] == True):
+            if (P[i][j]):
                 dp[i][j] = (dp[i][j - 1] +
                             dp[i + 1][j] + 1 - dp[i + 1][j - 1])
             else:
