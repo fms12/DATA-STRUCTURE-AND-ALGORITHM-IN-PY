@@ -1,0 +1,15 @@
+class Solution:
+    def setZeroes(self, matrix: List[List[int]]) -> None:
+        fila = []
+        columna = []
+        for i in range(0 , len(matrix)):
+            for j in range(0 , len(matrix[i])):
+                if matrix[i][j] == 0:
+                    if i not in fila:fila.append(i)
+                    if j not in columna:columna.append(j)
+        for i in fila:
+            for j in range(0 , len(matrix[i])):
+                matrix[i][j] = 0
+        for i in columna:
+            for j in range(0 , len(matrix)):
+                matrix[j][i] = 0
