@@ -1,17 +1,14 @@
-class Solution:
-    def isSubsequence(self, s: str, t: str) -> bool:
-        ls, lt = len(s), len(t)
-#         initializing length in s and t
-        if ls > lt:
-#     checking whether ls is greater than lt
-            return False
-        i = j = 0
-#   initializing i and j with 0
-        while i < ls and j < lt:
-            if s[i] == t[j]:
-                i += 1
-                j += 1
-            else:
-                j += 1
-        return i == ls
-#       if i and ls are equal it returns true
+# Python Implementation of the approach
+import itertools
+
+def Sub_Sequences(STR):
+	combs = []
+	for l in range(1, len(STR)+1):
+		combs.append(list(itertools.combinations(STR, l)))
+	for c in combs:
+		for t in c:
+			print (''.join(t), end =' ')
+
+# Testing with driver code
+if __name__ == '__main__':
+	Sub_Sequences('abc')
