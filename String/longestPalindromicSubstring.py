@@ -1,19 +1,19 @@
 # A Python3 solution for longest palindrome
 
-# Function to pra subString str[low..high]
-def printSubStr(str, low, high):
+# Function to pra subString s[low..high]
+def printSubStr(s, low, high):
 	
 	for i in range(low, high + 1):
-		print(str[i], end = "")
+		print(s[i], end = "")
 
 # This function prints the
 # longest palindrome subString
 # It also returns the length
 # of the longest palindrome
-def longestPalSubstr(str):
+def longestPalSubstr(s):
 	
 	# Get length of input String
-	n = len(str)
+	n = len(s)
 	
 	# All subStrings of length 1
 	# are palindromes
@@ -28,7 +28,7 @@ def longestPalSubstr(str):
 			
 			# Check palindrome
 			for k in range(0, ((j - i) // 2) + 1):
-				if (str[i + k] != str[j - k]):
+				if (s[i + k] != s[j - k]):
 					flag = 0
 
 			# Palindrome
@@ -37,7 +37,7 @@ def longestPalSubstr(str):
 				maxLength = j - i + 1
 				
 	print("Longest palindrome subString is: ", end = "")
-	printSubStr(str, start, start + maxLength - 1)
+	printSubStr(s, start, start + maxLength - 1)
 
 	# Return length of LPS
 	return maxLength
