@@ -45,6 +45,6 @@ def longestPalSubstr(str):
 # Driver Code
 if __name__ == '__main__':
 
-	str = "banana"
+	s = "banana"
 	
-	print("\nLength is: ", longestPalSubstr(str))
+	print("\nLength is: ", longestPalSubstr(s))
