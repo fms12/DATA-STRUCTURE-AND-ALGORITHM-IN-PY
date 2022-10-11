@@ -21,7 +21,7 @@ class queueNode:
 # Check whether given cell(row,col)
 # is a valid cell or not
 def isValid(row: int, col: int):
-	return 0
+	return row>0 and col>0
 
 # These arrays are used to get row and column
 # numbers of 4 neighbours of a given cell
