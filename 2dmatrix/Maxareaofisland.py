@@ -8,7 +8,7 @@
 def isSafe(M, row, col, visited):
 	# row number is in range, column number is in
 	# range and value is 1 and not yet visited
-	return ((row >= 0) and (row < ROW) 
+	return ((row >= 0) and (row < ROW))
 
 # A utility function to do DFS for a 2D
 # boolean matrix. It only considers
