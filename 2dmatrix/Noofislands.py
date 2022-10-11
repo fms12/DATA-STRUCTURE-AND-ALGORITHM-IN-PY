@@ -20,9 +20,7 @@ def dfs(grid, x0, y0, i, j, v):
 	# computing coordinates with x0, y0 as base
 	v.append( (i - x0, j - y0) )
 
-	# repeat dfs for neighbors
-	for dir in dirs:
-		dfs(grid, x0, y0, i + dir[0], j + dir[1], v)
+	
 	
 
 
