@@ -68,8 +68,7 @@ def largestRegion(M):
 	return result
 
 
-# Driver Code
-if __name__ == '__main__':
+
 ROW = 4
 COL = 5
 
