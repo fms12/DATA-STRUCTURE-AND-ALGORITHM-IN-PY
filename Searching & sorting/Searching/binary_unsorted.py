@@ -17,7 +17,7 @@ def binarySearch(array, target, left, right):
 
     elif leftNum <=potentialMatch:
         print("leftNum <=potentialMatch")
-        if target < potentialMatch and target >=leftNum:
+        if leftNum <= target < potentialMatch:
             print("target < potentialMatch and target >=leftNum")
             return binarySearch(array, target, left , middle - 1)
         else:
@@ -25,7 +25,7 @@ def binarySearch(array, target, left, right):
             return binarySearch(array, target, middle+1, right)
     else:
         print("leftNum >=potentialMatch")
-        if target > potentialMatch and target <=rightNum:
+        if potentialMatch < target <=rightNum:
             print("target > potentialMatch and target <=rightNum")
             return binarySearch(array, target, middle+1, right)
         else:
