@@ -6,7 +6,7 @@ class LinkedList:
 
 
 def mergeLinkedLists(headOne, headTwo):
-    p1 = headOne   #storing references in variables
+        p1 = headOne   #storing references in variables
 	p2 = headTwo
 	prev = None
   
