@@ -6,8 +6,6 @@
 
 
 def isSafe(M, row, col, visited):
-	global ROW, COL
-
 	# row number is in range, column number is in
 	# range and value is 1 and not yet visited
 	return ((row >= 0) and (row < ROW) and
@@ -44,8 +42,6 @@ def DFS(M, row, col, visited, count):
 
 
 def largestRegion(M):
-	global ROW, COL
-
 	# Make a bool array to mark visited cells.
 	# Initially all cells are unvisited
 	visited = [[0] * COL for i in range(ROW)]
