@@ -1,10 +1,10 @@
-from .solutions import check
-import pytest
-
-
 """
 Test the check anagram function
 """
+
+
+from .solutions import check
+import pytest
 
 
 @pytest.mark.parametrize("s1, s2, expected", [

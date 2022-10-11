@@ -1,8 +1,4 @@
 
-
-import string
-
-
 def solution(string_iter: str):
     """
     The sum is sum(iterable, start) iterable can

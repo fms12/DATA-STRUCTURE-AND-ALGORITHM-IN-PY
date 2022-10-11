@@ -1,8 +1,8 @@
-from .solution import shuffle
-
 """
 Test the shuffle function
 """
+
+from .solution import shuffle
 
 
 def test_shuffle():

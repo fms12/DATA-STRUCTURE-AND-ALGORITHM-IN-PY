@@ -5,13 +5,13 @@ and calculate the number of letters and digits.
 
 
 def solution(input_string: str):
-    dict = {}
+    dictionary = {}
 
     for i in input_string:
-        if i in dict:
-            dict[i] += 1
+        if i in dictionary:
+            dictionary[i] += 1
             continue
 
-        dict[i] = 1
+        dictionary[i] = 1
 
-    return dict
+    return dictionary
