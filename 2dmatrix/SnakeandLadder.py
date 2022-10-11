@@ -6,21 +6,6 @@
 # An entry in queue used in BFS
 
 
-class QueueEntry(object):
-	def __init__(self, v=0, dist=0):
-		self.v = v
-		self.dist = dist
-
-
-'''This function returns minimum number of
-dice throws required to. Reach last cell
-from 0'th cell in a snake and ladder game.
-move[] is an array of size N where N is
-no. of cells on board. If there is no
-snake or ladder from cell i, then move[i]
-is -1. Otherwise move[i] contains cell to
-which snake or ladder at i takes to.'''
-
 
 def getMinDiceThrows(move, N):
 
