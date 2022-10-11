@@ -5,7 +5,7 @@
 # (row, col) can be included in DFS
 
 
-def isSafe(M, row, col, visited):
+def isSafe(row):
 	# row number is in range, column number is in
 	# range and value is 1 and not yet visited
 	return ((row >= 0) and (row < ROW))
@@ -15,7 +15,7 @@ def isSafe(M, row, col, visited):
 # the 8 neighbours as adjacent vertices
 
 
-def DFS(M, row, col, visited, count):
+def DFS(row, col, visited, count):
 
 	# These arrays are used to get row and column
 	# numbers of 8 neighbours of a given cell
