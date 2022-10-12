@@ -14,7 +14,7 @@ def bucketSort(arr, noOfBuckets):
 
 	# scatter the array elements
 	# into the correct bucket
-	for i in range(len(arr)):
+	for i,_ in enumerate(arr):
 		diff = (arr[i] - min_ele) / rnge -int((arr[i] - min_ele) / rnge)
 
 		# append the boundary elements to the lower array
@@ -25,7 +25,7 @@ def bucketSort(arr, noOfBuckets):
 			temp[int((arr[i] - min_ele) / rnge)].append(arr[i])
 
 	# Sort each bucket individually
-	for i,element in enumerate(temp):
+	for i,_ in enumerate(temp):
 		if len(temp[i]) != 0:
 			temp[i].sort()
 
