@@ -50,31 +50,28 @@ def countDerangements(i,mask,n, A):
 # Utility Function to count
 # The number of derangements
 def UtilCountDerangements(A,N):
+	frequencyMap = {}
+	for i in range(N):
+		if A[i] in frequencyMap:
+			frequencyMap[A[i]] = frequencyMap[A[i]]+1
+		else:
+			frequencyMap[A[i]] = 1
 
-	# HashMap to store the frequency
-	# of each number.
-frequencyMap = {}
-for i in range(N):
-	if A[i] in frequencyMap:
-		frequencyMap[A[i]] = frequencyMap[A[i]]+1
-	else:
-		frequencyMap[A[i]] = 1
+		# Function call and storing
+		# The return value in 'ans'.
+	ans = countDerangements(0, 0, N, A)
 
-	# Function call and storing
-	# The return value in 'ans'.
-ans = countDerangements(0, 0, N, A)
+		# Iterating through the HashMap
+	for key,value in frequencyMap.items():
 
-	# Iterating through the HashMap
-for key,value in frequencyMap.items():
+			# Frequency of current number
+		times = value
 
-		# Frequency of current number
-	times = value
-
-		# If it occurs more than 1 time,
-		# divide the answer by its frequency.
-	if (times > 1):
-		ans = ans // factorial(times)
-return ans
+			# If it occurs more than 1 time,
+			# divide the answer by its frequency.
+		if (times > 1):
+			ans = ans // factorial(times)
+	return ans
 
 # Driver code
 
