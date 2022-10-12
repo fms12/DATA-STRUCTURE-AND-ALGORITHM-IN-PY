@@ -63,6 +63,4 @@ def main():
 if __name__ == "__main__":
 	main()
 
-# Code contributed by Mohit Gupta_OMG,
-# improved by itsvinayak
-# Code improved by Susobhan AKhuli
+
