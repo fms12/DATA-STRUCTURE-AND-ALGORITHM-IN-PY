@@ -3,7 +3,7 @@
 # returns true if there is triplet
 # with sum equal to 'sum' present
 # in A[]. Also, prints the triplet
-def find3Numbers(A, arr_size, sum):
+def find3Numbers(A, arr_size, sum1):
 
 	# Sort the elements
 	A.sort()
