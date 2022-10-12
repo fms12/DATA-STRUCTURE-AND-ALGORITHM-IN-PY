@@ -31,7 +31,7 @@ def noCommon(a, b):
 # elements with given sum X
 def findFourElements(myArr, sum):
 
-	length = len(myArr)
+	length = 6
 
 	# Create an auxiliary array to
 	# store all pair sums
