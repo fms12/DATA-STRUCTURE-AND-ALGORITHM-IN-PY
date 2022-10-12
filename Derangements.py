@@ -62,7 +62,7 @@ def UtilCountDerangements(A,N):
 	ans = countDerangements(0, 0, N, A)
 
 		# Iterating through the HashMap
-	for key,value in frequencyMap.items():
+	for value in frequencyMap.items():
 
 			# Frequency of current number
 		times = value
