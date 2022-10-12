@@ -15,7 +15,7 @@ class pairSum:
 		self.sec = ""
 
 		# Sum of the pair
-		self.sum = ""
+		self.sum1 = ""
 
 
 # Function to check if two given pairs
@@ -29,7 +29,7 @@ def noCommon(a, b):
 
 # The function finds four
 # elements with given sum X
-def findFourElements(myArr, sum):
+def findFourElements(myArr, sum1):
 
 	length = 6
 
@@ -45,14 +45,14 @@ def findFourElements(myArr, sum):
 	for i in range(length - 1):
 		for j in range(i + 1, length):
 			aux[k] = pairSum()
-			aux[k].sum = myArr[i] + myArr[j]
+			aux[k].sum1 = myArr[i] + myArr[j]
 			aux[k].first = i
 			aux[k].sec = j
 			k += 1
 
 	# Sort the aux[] array using
 	# library function for sorting
-	aux.sort(key=lambda x: x.sum)
+	aux.sort(key=lambda x: x.sum1)
 
 	# Now start two index variables
 	# from two corners of array
@@ -60,13 +60,13 @@ def findFourElements(myArr, sum):
 	i = 0
 	j = size - 1
 	while (i < size and j >= 0):
-		if ((aux[i].sum + aux[j].sum == sum)
+		if ((aux[i].sum1 + aux[j].sum1 == sum1)
 				and noCommon(aux[i], aux[j])):
 			print(myArr[aux[i].first], myArr[aux[i].sec],
 				myArr[aux[j].first], myArr[aux[j].sec], sep=", ")
 			return
 
-		elif (aux[i].sum + aux[j].sum < sum):
+		elif (aux[i].sum1 + aux[j].sum1 < sum1):
 			i += 1
 		else:
 			j -= 1
