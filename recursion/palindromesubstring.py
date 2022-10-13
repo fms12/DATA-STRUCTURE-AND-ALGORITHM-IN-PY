@@ -22,7 +22,7 @@ def CountPS(s, n):
   
     # palindrome of single length
     for i in range(n):
-        P[i][i]=True;
+        P[i][i] = True
   
     # palindrome of length 2
     for i in range(n - 1):

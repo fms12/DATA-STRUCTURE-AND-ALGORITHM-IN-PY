@@ -13,5 +13,7 @@ def stringtoalpha(string,out):
     singleDigitNumber = ord(string[0]) - ord('0')
     ch = singleDigitNumber + ord('A') - 1
     stringtoalpha(string[1:],out+chr(ch))
+
+
 string = input()
 stringtoalpha(string,'')

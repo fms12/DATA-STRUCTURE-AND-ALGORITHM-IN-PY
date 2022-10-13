@@ -39,22 +39,11 @@
 # 3 2 0 0 0
 # 9 8 2 0 0
 
-
- ....................................................................................................................................................................
- CODE
  
- 
- 
- def PushZerostoend(arr):
+def PushZerostoend(arr):
     nonzero = 0
     for i in range(len(arr)):
-      if(arr[i]!=0):
-        swap(arr[i],arr[nonzero])
-        nonzero+=1  
+        if(arr[i]!=0):
+            # swap(arr[i], arr[nonzero])  # swap function is not working NOTE
+            nonzero+=1  
     return arr
-  
-  
- 
- 
- 
- 

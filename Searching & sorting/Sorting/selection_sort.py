@@ -32,21 +32,29 @@ Pseudocode Selection Sort  :-
          swap list[min] and list[i]
       end if
    end for
-	
+    
 end procedure
 """
 
-def selection_sort(alist):
-    for i in range(0, len(alist) - 1):
-        smallest = i
-        for j in range(i + 1, len(alist)):
-            if alist[j] < alist[smallest]:
-                smallest = j
-        alist[i], alist[smallest] = alist[smallest], alist[i]
- 
-# Created a User-Input Array
-alist = input('Enter The Numbers : ').split()
-alist = [int(x) for x in alist]
-selection_sort(alist)
-print('Sorted List: ', end='')
-print(alist)
+
+# define a fuction
+def selection_sort(arr):
+    for i in range(len(arr)):
+        min_index = i
+        for j in range(i+1, len(arr)):
+            if arr[min_index] > arr[j]:  # Selection sort logic
+                min_index = j
+        arr[i], arr[min_index] = arr[min_index], arr[i]
+    return arr
+
+
+if __name__ == "__main__":
+    arr = []  # empty list
+    n = int(input("Enter the number of elements: "))
+    for i in range(0, n):  # Taking input from user
+        ele = int(input())
+        arr.append(ele)
+    print("Unsorted list: ", arr)
+
+    print("Array before sorting: ", arr)  # Printing unsorted list
+    print(selection_sort(list))

@@ -48,4 +48,3 @@ while True:
  
 count = count_paths(m, n, holes)
 print('Number of paths from (0, 0) to ({}, {}): {}.'.format(n, m, count))
-

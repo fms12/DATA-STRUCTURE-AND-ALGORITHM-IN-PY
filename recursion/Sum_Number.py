@@ -23,5 +23,6 @@ def sumnumber(a):
     sums = a%10 + sumnumber(a//10)
     return sums
 
+
 a = int(input())
 print(sumnumber(a))

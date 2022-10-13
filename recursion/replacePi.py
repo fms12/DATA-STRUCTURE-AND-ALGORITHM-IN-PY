@@ -5,11 +5,13 @@ def desending(s):
     if(s[0]=='p' and s[1]=='i'):
         return '3.14'+res[1:]
     else:
-        return s[0]+res    
+        return s[0]+res
+
+
 s = input()
 print(desending(s))
 
-#INPUT
+# INPUT
 # xpipippixx
 # OUTPUT
 # x3.143.14p3.14xx

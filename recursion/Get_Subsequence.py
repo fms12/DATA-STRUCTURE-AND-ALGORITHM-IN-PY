@@ -12,14 +12,15 @@ def gss(n):
     for j in ros:
         mres.append(n[0]+j)
     return mres
+
+
 n = input()
 print(gss(n))
 
 
-
-# >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+"""
 OUTPUT:
   abc
 INPUT:
   ['', 'c', 'b', 'bc', 'a', 'ac', 'ab', 'abc']
+"""

@@ -8,6 +8,7 @@ def desending(s):
     ros = ord(s[0])- 48
     j = ros*(10**(len(s)-1))+res
     return j
+
+
 s = input()
 print(desending(s))
-

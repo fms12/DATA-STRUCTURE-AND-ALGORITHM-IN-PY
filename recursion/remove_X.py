@@ -7,7 +7,8 @@ def removex(string):
     if (string[0]=='x'):
         return ""+ smalcase
     else:
-        return  string[0]+smalcase
+        return string[0] + smalcase
+
+
 string = input()
 print(removex(string))
-

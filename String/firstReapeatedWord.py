@@ -2,7 +2,7 @@
 # Python program to find first repeated word in a string
 def solve(s):
  
-    mp = {} # to store occurrences of word
+    mp = {}  # to store occurrences of word
     t = ""
     ans = ""
      
@@ -36,7 +36,8 @@ def solve(s):
         print(ans)
     else:
         print("No Repetition")
- 
+
+
 # driver code
 u = "Ravi had been saying that he had been there"
 v = "Ravi had been saying that"

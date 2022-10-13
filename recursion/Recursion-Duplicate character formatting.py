@@ -7,8 +7,9 @@ def duplicate(s):
         return s[0]+"*"+ros
     return s[0]+ros
 
+
 s = input()
 print(duplicate(s))
 
 # output 
-hel*lo
+# hel*lo
