@@ -4,4 +4,5 @@ def gcf(a, b):
         return abs(a)
     return gcf(b, a%b)
 
+
 print(gcf(int(input()), int(input())))

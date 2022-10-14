@@ -1,4 +1,4 @@
-#Program for finding the number of  zeros in a given number
+# Program for finding the number of  zeros in a given number
 def countZeros(n):
     if n == 0:  # base case
         return 0  # return 0 if n == 0
@@ -9,5 +9,6 @@ def countZeros(n):
     else:
         return smallOutput
 
+
 n = int(input("Enter the number: "))  # taking input from user
-print(countZeros(n)) #calling the function and printing the result
+print(countZeros(n))  # calling the function and printing the result

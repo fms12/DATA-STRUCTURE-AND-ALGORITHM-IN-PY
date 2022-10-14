@@ -25,6 +25,7 @@ def countingSort(arr):
     for m in range(0, size):
         arr[m] = output[m]
 
+
 data = [3,5,1,6,7,8,3]
 countingSort(data)
 print("Sorted Array: ")

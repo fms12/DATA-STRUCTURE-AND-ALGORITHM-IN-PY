@@ -11,4 +11,6 @@ def first(arr,i):
     if(arr[i]==arr[i+1]):
         return i
     return first(arr,i+1)
+
+
 print(first([1,2,2,3,3,4,5],0))

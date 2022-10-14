@@ -7,5 +7,6 @@ def duplicate(s):
         return ros
     return s[0]+ros
 
+
 s = input()
 print(duplicate(s))

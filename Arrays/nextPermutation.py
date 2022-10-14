@@ -4,12 +4,13 @@ def nextPermutation(nums):
         i -= 1
     if i == 0:   # nums are in descending order
         nums.reverse()
-        return 
+        return
     k = i - 1    # find the last "ascending" position
     while nums[j] <= nums[k]:
         j -= 1
-    nums[k], nums[j] = nums[j], nums[k]  
+    nums[k], nums[j] = nums[j], nums[k]
     l, r = k+1, len(nums)-1  # reverse the second part
     while l < r:
         nums[l], nums[r] = nums[r], nums[l]
-        l +=1 ; r -= 1
+        l += 1
+        r -= 1

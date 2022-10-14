@@ -17,7 +17,6 @@
 # 4
 
 
-
 def zero(a):
     if(a<10):
         if(a==0):
@@ -28,6 +27,7 @@ def zero(a):
         return zero(a//10) + 1
     else:
         return zero(a//10)
+
 
 a = int(input())
 print(zero(a))

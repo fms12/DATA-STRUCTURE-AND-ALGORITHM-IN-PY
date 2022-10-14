@@ -5,6 +5,7 @@
 
 import itertools
 
+
 class Solution:
     lowercase = set('abcdefghijklmnopqrstuvwxyz')
     uppercase = set('ABCDEFGHIJKLMNOPQRSTUFVWXYZ')

@@ -36,6 +36,3 @@ def spiralOrder(matrix: List[List[int]]) -> List[int]:
             minc += 1
 
     return res
-
-
-
