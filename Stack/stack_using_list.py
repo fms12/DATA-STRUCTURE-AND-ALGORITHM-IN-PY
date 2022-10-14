@@ -1,8 +1,9 @@
 # Python program to demonstrate stack implementation using list
 
+# skipcq
 stack = []
 
-# skipcq
+
 # append() function to push element in the stack
 stack.append('a')
 stack.append('b')
