@@ -31,6 +31,7 @@ for i in range(n):
 
 subset(arr)
 
+# skipcq
 """
 OUTPUT
 

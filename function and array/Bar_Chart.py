@@ -1,8 +1,8 @@
 def bar(arr):
     height = max(arr)
     for i in range(height):
-        for j in range(len(arr)):
-            if (arr[j] >= height-i):
+        for _, arr_value in enumerate(arr):
+            if (arr_value >= height-i):
                 print("*", end='\t')
             else:
                 print(end='\t')
@@ -14,6 +14,7 @@ arr = [int(i) for i in input().split()]
 print(bar(arr))
 
 
+# skipcq
 """
 Output
 i can do like  also  that we can start the first loop form 7 and end with 1

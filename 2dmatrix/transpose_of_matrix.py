@@ -6,14 +6,14 @@ def matrix(n):
             row.append(int(input()))
         ob.append(row)
     # transpose
-    for i in range(len(ob)):
+    for i, val in enumerate(ob):
 
         # if 'i' dont use here  then we don't get the transpose of
         # matrix we repeat again it self so we have to take
         # upper triangle to swap the value
         for j in range(i, len(ob[0])):
             # here we get the swap row with column to get transepose
-            ob[i][j], ob[j][i] = ob[j][i], ob[i][j]
+            val[j], ob[j][i] = ob[j][i], val[j]
 
     print("\n".join(map(str, ob)))
 
@@ -22,6 +22,7 @@ n = int(input())
 matrix(n)
 
 
+# skipcq
 """
 input
 

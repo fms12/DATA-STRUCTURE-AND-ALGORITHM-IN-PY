@@ -1,7 +1,7 @@
 def pattern(n):
     if(n==0):
         return
-    for i in range(n):
+    for _ in range(n):
         print("*",end=' ')
     print("")
     pattern(n-1)
@@ -10,6 +10,7 @@ def pattern(n):
 n = int(input())
 pattern(n)
 
+# skipcq
 """
 * * * * * 
 * * * * 

@@ -2,6 +2,7 @@ from typing import List
 
 
 class Solution:
+    @staticmethod
     def busyStudent(
         self, startTime: List[int],
         endTime: List[int], queryTime: int
@@ -9,11 +10,12 @@ class Solution:
         n = len(startTime)
         count = 0
         for i in range(0, n):
-            if (startTime[i] <= queryTime and endTime[i] >= queryTime):
+            if ((startTime[i] <= queryTime) and (endTime[i] >= queryTime)):
                 count = count+1
         return count
 
 
+# skipcq
 """
 OUTPUT:
 Example 1:

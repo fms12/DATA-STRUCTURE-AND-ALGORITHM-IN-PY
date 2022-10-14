@@ -66,8 +66,8 @@ def sumcalc(arr1, arr2):
     m = len(arr2)
     
     while(i<n and i<m ):
-        sum = arr1[i] + arr2[i]
-        insertarray(sum,temp)
+        sum_a = arr1[i] + arr2[i]
+        insertarray(sum_a,temp)
         i+=1
     
     while(i<n):

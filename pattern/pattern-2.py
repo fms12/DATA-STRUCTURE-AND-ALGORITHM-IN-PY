@@ -10,7 +10,7 @@ for i in range(n):
     sp -= 1
     st += 1
 
-
+# skipcq
 """
 Output
                 *

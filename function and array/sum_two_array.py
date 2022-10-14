@@ -36,7 +36,7 @@ solution = 1027
 
 
 # Method 2
-def sumarray(arr1,arr2):
+def sumarray2(arr1,arr2):
     i=len(arr1)-1
     j=len(arr2)-1
     s=[]
@@ -55,9 +55,9 @@ def sumarray(arr1,arr2):
     if (c > 0):
         s.append(c)
     s.reverse()
-# given output in diffrent line
-    for i in range(len(s)):
-        print(s[i])
+    # given output in diffrent line
+    for _, value in enumerate(s):
+        print(value)
 
 
 # taking input in diffrent line  so it can easy for the pep solution
@@ -71,4 +71,4 @@ n2=int(input())
 for i in range(n2):
     arr2.append(int(input()))
 
-sumarray(arr1,arr2)
+sumarray2(arr1,arr2)

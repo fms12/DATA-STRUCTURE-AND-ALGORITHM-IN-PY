@@ -2,15 +2,12 @@ from typing import List
 
 
 def flipAndInvertImage(image: List[List[int]]) -> List[List[int]]:
-    for i in range(len(image)):
-        # image[i] = image[i][::-1]
-        # image[i].reverse()
-        # image[i][0],image[i][len(image)-1]=image[i][len(image)-1],image[i][0]
+    for _, val in enumerate(image):
         for j in range(len(image)):
-            if(image[i][j] == 1):
-                image[i][j] = 0
+            if(val[j] == 1):
+                val[j] = 0
             else:
-                image[i][j] = 1
+                val[j] = 1
     return image
 
 

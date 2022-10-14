@@ -42,8 +42,8 @@
  
 def PushZerostoend(arr):
     nonzero = 0
-    for i in range(len(arr)):
-        if(arr[i]!=0):
-            # swap(arr[i], arr[nonzero])  # swap function is not working NOTE
+    for _, val in enumerate(arr):
+        if (val != 0):
+            # swap(arr[i], arr[nonzero])  # swap function is not defined NOTE  # skipcq
             nonzero+=1  
     return arr

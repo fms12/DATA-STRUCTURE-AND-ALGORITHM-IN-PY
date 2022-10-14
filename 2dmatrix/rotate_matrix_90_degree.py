@@ -6,27 +6,28 @@ def matrix(n):
             row.append(int(input()))
         ob.append(row)
     # transpose
-    for i in range(len(ob)):
+    for i, val in enumerate(ob):
         for j in range(i, len(ob[0])):
-            ob[i][j], ob[j][i] = ob[j][i], ob[i][j]
+            val[j], ob[j][i] = ob[j][i], val[j]
     # rotate the matrix
-    for i in range(len(ob)):
+    for i, val in enumerate(ob):
         l = 0
         r = len(ob[0])-1
         while (l <= r):
-            ob[i][l], ob[i][r] = ob[i][r], ob[i][l]
+            val[l], val[r] = val[r], val[l]
             l += 1
             r -= 1
-    for i in range(len(ob)):
+    for i, val in enumerate(ob):
         temp = []
         for j in range(len(ob[0])):
-            temp.append(ob[i][j])
+            temp.append(val[j])
         print(" ".join(map(str, temp)))
 
 
 n = int(input())
 matrix(n)
 
+# skipcq
 """
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..input >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 4

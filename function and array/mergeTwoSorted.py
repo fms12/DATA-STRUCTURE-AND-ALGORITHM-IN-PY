@@ -28,7 +28,7 @@ while (j < len(arr2)):
 
 print(arr3)
 
-
+# skipcq
 """
 INPUT
 1 3 5 7

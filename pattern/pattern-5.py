@@ -19,7 +19,7 @@ def pattern(n):
 # calling function with 5 is input
 pattern(5)
 
-
+# skipcq
 """
 Output
          *

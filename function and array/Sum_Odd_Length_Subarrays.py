@@ -10,6 +10,7 @@ def sumOddLengthSubarrays(arr: List[int]) -> int:
         return cout
 
 
+# skipcq
 """
 Input: arr = [1,4,2,5,3]
 Output: 58

@@ -11,5 +11,8 @@ def duplicate(s):
 s = input()
 print(duplicate(s))
 
-# output 
-# hel*lo
+# skipcq
+"""
+output 
+hel*lo
+"""

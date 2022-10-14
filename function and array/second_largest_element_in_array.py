@@ -1,12 +1,12 @@
 def maxProduct(nums):
     first=0
     second=0
-    for i in range(len(nums)):
-        if (nums[i] > first):
+    for _, num in enumerate(nums):
+        if (num > first):
             second = first
-            first = nums[i]
-        elif (nums[i] >= second):
-            second = nums[i]
+            first = num
+        elif (num >= second):
+            second = num
     print(first,second)
 
 

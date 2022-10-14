@@ -1,9 +1,7 @@
 # get subsquence 
 def gss(n):
-    if(len(n)==0):
-        ans = []
-        ans.append('')
-        return ans
+    if (len(n) == 0):
+        return [""]
     res = n[1:]
     ros= gss(res)
     mres = []
