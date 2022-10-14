@@ -16,6 +16,7 @@ n = input()
 print(gss(n))
 
 
+# skipcq
 """
 OUTPUT:
   abc
