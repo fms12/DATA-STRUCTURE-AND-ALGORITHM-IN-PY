@@ -2,8 +2,9 @@ from typing import List
 
 
 class Solution:
+    @staticmethod
     def busyStudent(
-        self, startTime: List[int],
+        startTime: List[int],
         endTime: List[int], queryTime: int
     ) -> int:
         n = len(startTime)
