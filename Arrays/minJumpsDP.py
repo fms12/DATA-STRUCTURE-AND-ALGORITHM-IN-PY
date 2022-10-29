@@ -6,8 +6,6 @@ def minJumps(arr, n):
   
 	#if first element is 0 or size of array is zero
 	
-    	if n == 0 or arr[0] == 0:
-		return float('inf')
 
 	jumps[0] = 0
 
