@@ -1,14 +1,12 @@
 # Returns minimum number of jumps
 # to reach arr[n-1] from first position (0-indexed)
 
-
 def minJumps(arr, n):
 	jumps = [0 for i in range(n)]
   
-  	#if first element is 0 or size of array
-  	#is zero
+	#if first element is 0 or size of array is zero
 	
-  	if n == 0 or arr[0] == 0:
+    	if n == 0 or arr[0] == 0:
 		return float('inf')
 
 	jumps[0] = 0
