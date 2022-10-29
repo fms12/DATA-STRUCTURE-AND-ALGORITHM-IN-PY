@@ -5,10 +5,10 @@
 def minJumps(arr, n):
 	jumps = [0 for i in range(n)]
   
-  #if first element is 0 or size of array
-  #is zero
+  	#if first element is 0 or size of array
+  	#is zero
 	
-  if n == 0 or arr[0] == 0:
+  	if n == 0 or arr[0] == 0:
 		return float('inf')
 
 	jumps[0] = 0
@@ -19,7 +19,7 @@ def minJumps(arr, n):
 	# value to jumps[i]
 	
   
-  for i in range(1, n):
+  	for i in range(1, n):
 		jumps[i] = float('inf')
 		for j in range(i):
 			if i <= j + arr[j] and jumps[j] != float('inf'):
