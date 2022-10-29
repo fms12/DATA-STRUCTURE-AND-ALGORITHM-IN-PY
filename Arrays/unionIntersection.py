@@ -9,13 +9,9 @@ def printUnion(arr1, arr2, m, n):
 	# Before finding union, make sure arr1[0..m-1]
 	# is smaller
 	if (m > n):
-		tempp = arr1
-		arr1 = arr2
-		arr2 = tempp
+		(arr1, arr2) = (arr2, arr1)
 
-		temp = m
-		m = n
-		n = temp
+		(m, n) = (n, m)
 
 	# Now arr1[] is smaller
 
@@ -39,13 +35,10 @@ def printIntersection(arr1, arr2, m, n):
 	# Before finding intersection, make sure arr1[0..m-1]
 	# is smaller
 	if (m > n):
-		tempp = arr1
-		arr1 = arr2
-		arr2 = tempp
+		(arr1, arr2) = (arr2, arr1)
 
-		temp = m
-		m = n
-		n = temp
+		
+		(m, n) = (n, m)
 
 	# Now arr1[] is smaller
 
