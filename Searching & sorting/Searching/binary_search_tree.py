@@ -12,8 +12,6 @@ class Binary_Search_Tree:
     def Add_Node(self, data):
         if data == self.data:
             return # node already exist
-
-     ''' If the data we are inserting is Less than the value of the current node, then data will insert in Left node '''
         
         if data < self.data:
             if self.Left_child:
