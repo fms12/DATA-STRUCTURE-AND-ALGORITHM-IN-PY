@@ -1,14 +1,10 @@
 class Binary_Search_Tree:
-    
-    ''' Constructor with vaue we are going to insert in tree with assigning left and right child with default None '''
-    
+        
     def __init__(self, data):
         self.data = data
         self.Left_child = None
         self.Right_child = None
-        
-    '''If the data we are inserting already present in tree it will not add it to avoid the duplicate values '''
-        
+                
     def Add_Node(self, data):
         if data == self.data:
             return # node already exist
@@ -18,9 +14,7 @@ class Binary_Search_Tree:
                 self.Left_child.Add_Node(data)
             else:
                 self.Left_child = Binary_Search_Tree(data)
-         
-    ''' If the data we are inserting is Greater than the value of the current node, then data will insert in Right node '''
-            
+                     
         else:
             if self.Right_child:
                 self.Right_child.Add_Node(data)
@@ -29,22 +23,16 @@ class Binary_Search_Tree:
 
 
     def Find_Node(self, val):
-        
-    ''' If current node is equal to data we are finding return true '''
-        
+               
         if self.data == val:
             return True
-        
-    ''' If current node is lesser than data we are finding we have search in Left child node '''
-
+       
         if val < self.data:
             if self.Left_child:
                 return self.Left_child.Find_Node(val)
             else:
                 return False
-        
        
-
         if val > self.data:
             if self.Right_child:
                 return self.Right_child.Find_Node(val)
