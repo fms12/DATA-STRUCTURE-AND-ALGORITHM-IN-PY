@@ -1,6 +1,6 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://fms12-datastructureand-u5jqzhx1362.ws-us71.gitpod.io/)
 
-<h1 align="center">Data-Structures-and-Algorithms-in-PYTHON</h1>
+<h1 align="center">Data-Structures-and-Algorithms-in-{PYTHON}</h1>
 <h2 align ="center">An open source codebase for sharing programming solutions. </h2>
 This is very good piece of coding. Repo
 This repository is in it's development phase and will soon provide you with python code of various data structures and algorithms
