@@ -42,6 +42,25 @@ $ git push -u origin master  #for first time push
 $ git push                   #from second push onwards
 ```
 
+## :arrow_down: follow this format !
+
+For example, So your directory structure could be like this;
+
+```
+- DATA-STRUCTURE-AND-ALGORITHM-IN-PY
+   -  LinkedList
+       - Doubly
+       - Singly
+       - ReversedSingly     <----------- This will be your newly created folder
+           - solution.py       <----------- Write the code for the implementation here
+           - test_solution.py <----------- Write a test for it here to make sure it's working
+```
+
+There is already a LinkedList directory, which includes full Doubly and Singly linked list implementation. You can add yours Has a new directory ReversedSingly, then write the solution and test for it there.
+
+Anyone could also add tests for it in the future to learn it.
+
+
 > Think you're ready :grey_question: Make the PR :tropical_drink:
 -  open your forked repository
 - Click on Create New Pull Request
