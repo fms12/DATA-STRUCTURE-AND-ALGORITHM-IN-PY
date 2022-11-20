@@ -1,5 +1,5 @@
 class Binary_Search_Tree:
-        
+
     def __init__(self, data):
         self.data = data
         self.Left_child = None
@@ -20,7 +20,6 @@ class Binary_Search_Tree:
                 self.Right_child.Add_Node(data)
             else:
                 self.Right_child = Binary_Search_Tree(data)
-
 
     def Find_Node(self, val):
                
@@ -51,7 +50,6 @@ class Binary_Search_Tree:
 
         return elements
    
-    
     def Post_Order_Traversal(self):
         elements = []
         if self.Left_child:
@@ -63,7 +61,6 @@ class Binary_Search_Tree:
 
         return elements
     
-   
     def Pre_Order_Traversal(self):
         elements = [self.data]
         if self.Left_child:
@@ -73,7 +70,6 @@ class Binary_Search_Tree:
 
         return elements
      
-    
     def Find_Maximum_Node(self):
         if self.Right_child is None:
             return self.data
@@ -92,22 +88,6 @@ class Binary_Search_Tree:
 
 def Build_Tree(elements):
     root = Binary_Search_Tree(elements[0])
-
     for i in range(1,len(elements)):
         root.Add_Node(elements[i])
-
     return root
-
-
-# Example for input:-
-# numbers = [1, 4, 10, 20, 9, 23, 18, 34]
-
-numbers = list(map(int,input().split()))
-numbers_tree = Build_Tree(numbers)
-print("Input numbers:",numbers)
-print("Min:",numbers_tree.Find_Minimum_Node())
-print("Max:",numbers_tree.Find_Maximum_Node())
-print("Sum:", numbers_tree.calculate_Sum_Of_Nodes())
-print("In order traversal:", numbers_tree.In_Order_Traversal())
-print("Pre order traversal:", numbers_tree.Pre_Order_Traversal())
-print("Post order traversal:", numbers_tree.Post_Order_Traversal())
