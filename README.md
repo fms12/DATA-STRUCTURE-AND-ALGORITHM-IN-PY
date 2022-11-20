@@ -1,6 +1,6 @@
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://fms12-datastructureand-u5jqzhx1362.ws-us71.gitpod.io/)
 
-<h1 align="center">Data-Structures-and-Algorithms-in-PYTHON</h1>
+<h1 align="center">Data-Structures-and-Algorithms-in-{PYTHON}</h1>
 <h2 align ="center">An open source codebase for sharing programming solutions. </h2>
 This is very good piece of coding. Repo
 This repository is in it's development phase and will soon provide you with python code of various data structures and algorithms
@@ -41,6 +41,25 @@ $ git commit -m "<YOUR-COMMIT-MESSAGE>"
 $ git push -u origin master  #for first time push
 $ git push                   #from second push onwards
 ```
+
+## :arrow_down: follow this format !
+
+For example, So your directory structure could be like this;
+
+```
+- DATA-STRUCTURE-AND-ALGORITHM-IN-PY
+   -  LinkedList
+       - Doubly
+       - Singly
+       - ReversedSingly     <----------- This will be your newly created folder
+           - solution.py       <----------- Write the code for the implementation here
+           - test_solution.py <----------- Write a test for it here to make sure it's working
+```
+
+There is already a LinkedList directory, which includes full Doubly and Singly linked list implementation. You can add yours Has a new directory ReversedSingly, then write the solution and test for it there.
+
+Anyone could also add tests for it in the future to learn it.
+
 
 > Think you're ready :grey_question: Make the PR :tropical_drink:
 -  open your forked repository
