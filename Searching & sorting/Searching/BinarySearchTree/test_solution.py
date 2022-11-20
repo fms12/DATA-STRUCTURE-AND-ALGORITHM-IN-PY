@@ -1,6 +1,5 @@
 from .solution import Build_Tree
 
-# numbers = list(map(int,input().split()))
 numbers = [1, 4, 10, 20, 9, 23, 18, 34]
 numbers_tree = Build_Tree(numbers)
 print("Input numbers:",numbers)
