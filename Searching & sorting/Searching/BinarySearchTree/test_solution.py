@@ -1,5 +1,4 @@
 from .solution import Build_Tree
-import pytest
 
 
 numbers = [1, 4, 10, 20, 9, 23, 18, 34]
