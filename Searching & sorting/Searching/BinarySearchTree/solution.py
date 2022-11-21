@@ -3,22 +3,22 @@ class Binary_Search_Tree:
         self.data = data
         self.Left_child = None
         self.Right_child = None
-                
+
     def Add_Node(self, data):
         if data == self.data:
-            return 
+            return
         if data < self.data:
             if self.Left_child:
                 self.Left_child.Add_Node(data)
             else:
-                self.Left_child = Binary_Search_Tree(data)       
+                self.Left_child = Binary_Search_Tree(data)
         else:
             if self.Right_child:
                 self.Right_child.Add_Node(data)
             else:
                 self.Right_child = Binary_Search_Tree(data)
 
-    def Find_Node(self, val): 
+    def Find_Node(self, val):
         if self.data == val:
             return True
         if val < self.data:
@@ -30,7 +30,7 @@ class Binary_Search_Tree:
             if self.Right_child:
                 return self.Right_child.Find_Node(val)
             else:
-                return False    
+                return False
 
     def In_Order_Traversal(self):
         elements = []
@@ -40,7 +40,7 @@ class Binary_Search_Tree:
         if self.Right_child:
             elements += self.Right_child.In_Order_Traversal()
         return elements
-   
+
     def Post_Order_Traversal(self):
         elements = []
         if self.Left_child:
@@ -49,7 +49,7 @@ class Binary_Search_Tree:
             elements += self.Right_child.Post_Order_Traversal()
         elements.append(self.data)
         return elements
-    
+
     def Pre_Order_Traversal(self):
         elements = [self.data]
         if self.Left_child:
@@ -73,8 +73,9 @@ class Binary_Search_Tree:
         right_sum = self.Right_child.calculate_Sum_Of_Nodes() if self.Right_child else 0
         return self.data + left_sum + right_sum
 
+
 def Build_Tree(elements):
     root = Binary_Search_Tree(elements[0])
-    for i in range(1,len(elements)):
+    for i in range(1, len(elements)):
         root.Add_Node(elements[i])
     return root
