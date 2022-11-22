@@ -14,7 +14,7 @@ def arrayEvenAndOdd(arr,n):
 	
 	# Printing segregated array
 	for i in arr:
-		print (str(i) + " " ,end='')
+		print(str(i) + " " ,end='')
 		
 
 arr = [ 1 ,3, 2, 4, 7, 6, 9, 10]

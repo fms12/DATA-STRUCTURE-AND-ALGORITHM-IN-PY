@@ -35,9 +35,7 @@ def printIntersection(arr1, arr2, m, n):
 	# Before finding intersection, make sure arr1[0..m-1]
 	# is smaller
 	if (m > n):
-		(arr1, arr2) = (arr2, arr1)
-
-		
+		(arr1, arr2) = (arr2, arr1)		
 		(m, n) = (n, m)
 
 	# Now arr1[] is smaller
