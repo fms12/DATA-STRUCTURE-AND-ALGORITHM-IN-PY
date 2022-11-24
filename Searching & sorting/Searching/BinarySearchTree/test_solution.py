@@ -1,11 +1,9 @@
 from .solution import Build_Tree
 import pytest
+print(pytest)
 
 numbers = [1, 4, 10, 20, 9, 23, 18, 34]
 Ans = sorted(numbers)
-
-def test_given_data():
-    assert numbers == numbers
 
 def test_sorted_node():
     numbers_tree = Build_Tree(numbers)
