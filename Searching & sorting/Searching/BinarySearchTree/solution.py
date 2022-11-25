@@ -32,7 +32,7 @@ class Binary_Search_Tree:
                 return self.Left_child.Find_Node(val)
             else:
                 return False
-                
+
         if val > self.data:
             if self.Right_child:
                 return self.Right_child.Find_Node(val)
@@ -85,6 +85,7 @@ class Binary_Search_Tree:
         left_sum = self.Left_child.calculate_Sum_Of_Nodes() if self.Left_child else 0
         right_sum = self.Right_child.calculate_Sum_Of_Nodes() if self.Right_child else 0
         return self.data + left_sum + right_sum
+
 
 def Build_Tree(elements):
     root = Binary_Search_Tree(elements[0])
