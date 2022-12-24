@@ -93,7 +93,6 @@ class CircularLinkedList:
                 print(item, "The given node is not present in the list")
                 break
 
-
     def traverse(self):
         if self.last is None:
             print("The list is empty")
