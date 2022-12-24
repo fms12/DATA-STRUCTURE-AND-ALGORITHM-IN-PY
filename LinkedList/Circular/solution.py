@@ -94,6 +94,7 @@ class CircularLinkedList:
                 break
 
     # delete a node
+    @staticmethod
     def deleteNode(self, last, key):
 
         # If linked list is empty
