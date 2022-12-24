@@ -12,7 +12,7 @@ class CircularLinkedList:
 
     def addToEmpty(self, data):
 
-        if self.last != None:
+        if self.last is not None:
             return self.last
 
         # allocate memory to the new node and add data to the node
@@ -29,7 +29,7 @@ class CircularLinkedList:
     def addFront(self, data):
 
         # check if the list is empty
-        if self.last == None:
+        if self.last is None:
             return self.addToEmpty(data)
 
         # allocate memory to the new node and add data to the node
@@ -46,7 +46,7 @@ class CircularLinkedList:
     # add node to the end
     def addEnd(self, data):
         # check if the node is empty
-        if self.last == None:
+        if self.last is None:
             return self.addToEmpty(data)
 
         # allocate memory to the new node and add data to the node
@@ -67,7 +67,7 @@ class CircularLinkedList:
     def addAfter(self, data, item):
 
         # check if the list is empty
-        if self.last == None:
+        if self.last is None:
             return None
 
         newNode = Node(data)
@@ -97,7 +97,7 @@ class CircularLinkedList:
     def deleteNode(self, last, key):
 
         # If linked list is empty
-        if last == None:
+        if last is None:
             return
 
         # If the list contains only a single node
@@ -131,7 +131,7 @@ class CircularLinkedList:
         return last
 
     def traverse(self):
-        if self.last == None:
+        if self.last is None:
             print("The list is empty")
             return
 
