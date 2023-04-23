@@ -1,3 +1,7 @@
+from bisect import bisect_left
+from typing import List
+
+
 class Solution:
     def countSmaller(self, nums: List[int]) -> List[int]:
         # get the length of the input array
