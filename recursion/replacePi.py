@@ -1,6 +1,7 @@
 def desending(s):
-    return s.replace("pi", "3.14")
-
+    s = s.replace("π", "3.14")
+    s = s.replace("pi", "3.14")
+    return s
 # INPUT
 # xpipippixx
 # OUTPUT
