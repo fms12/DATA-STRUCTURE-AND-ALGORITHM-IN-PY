@@ -1,11 +1,5 @@
 def desending(s):
-    if(len(s) == 1):
-        return s
-    res = desending(s[1:])
-    if(s[0]=='p' and s[1]=='i'):
-        return '3.14'+res[1:]
-    else:
-        return s[0]+res
+    return s.replace("pi", "3.14")
 
 
 s = input()
